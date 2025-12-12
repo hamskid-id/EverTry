@@ -46,7 +46,7 @@ export const ShoppingListPreview = ({
         {/* Progress Bar */}
         <div className="space-y-2 mb-4">
           <div className="flex justify-between text-sm">
-            <span className="text-[#ABB8C4">Progress</span>
+            <span className="text-[#ABB8C4]">Progress</span>
             <span className="text-emerald-400">{Math.round(progress)}%</span>
           </div>
           <div className="h-2 bg-[#0D0F10] rounded-full overflow-hidden">

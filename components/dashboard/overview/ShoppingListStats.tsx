@@ -15,7 +15,7 @@ export const ShoppingListStats = ({
   onClearCompleted,
 }: ShoppingListStatsProps) => {
   return (
-    <div className="flex justify-between items-center text-sm text-[#ABB8C4]">
+    <div className="flex flex-wrap justify-between items-center text-sm text-[#ABB8C4]">
       <div className="flex items-center gap-4">
         <span>{totalCount} items</span>
         <span>{completedCount} completed</span>
