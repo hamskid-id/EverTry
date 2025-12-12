@@ -25,7 +25,7 @@ const FooterText: React.FC<IFooterText> = ({
   footerLink,
   footerLinkTitle,
 }) => (
-  <p className="text-center text-[13px] sm:text-sm text-gray-400">
+  <p className="mb-4 text-center text-[13px] sm:text-sm text-gray-400">
     {footerText}{" "}
     <Link
       href={footerLink}
@@ -52,9 +52,9 @@ const AuthLayout: React.FC<IAuthLayout> = ({
     <div className="flex h-screen w-full overflow-hidden bg-[#1a1a1a]">
       {/* Left Section - Form Area */}
       <div className="flex flex-col w-full lg:w-1/2 overflow-y-auto custom-scroll">
-        <div className="flex flex-col min-h-full px-6 py-8 md:px-12 lg:px-16">
+        <div className="flex flex-col min-h-full sm:px-6 px-3 py-8 md:px-12 lg:px-16">
           {/* Brand Logo */}
-          <div className="mb-12">
+          <div className="sm:mb-12 mb-5">
             <Brand style="h-[30px] w-[150px]" />
           </div>
 
@@ -94,7 +94,7 @@ const AuthLayout: React.FC<IAuthLayout> = ({
           )}
 
           {/* Copyright Text - Bottom Left */}
-          <div className={cn("pb-4", !showFooter && "mt-auto pt-8")}>
+          <div className={cn("pb-3", !showFooter && "mt-auto pt-8")}>
             <p className="text-left text-[12px] text-gray-500">
               @carepulse copyright
             </p>

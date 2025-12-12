@@ -14,7 +14,7 @@ const AppointmentDetails = ({ details }: AppointmentDetailsProps) => {
       <p className="text-base text-[#ABB8C4] mb-2">
         Requested appointment details:
       </p>
-      <div className="flex items-center justify-center gap-4 text-sm">
+      <div className="flex items-center flex-wrap  justify-center gap-4 text-sm">
         <div
           style={{
             background:

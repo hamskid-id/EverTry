@@ -66,7 +66,7 @@ const AppHeader: React.FC = () => {
       </div>
 
       {/* Title or Back Button */}
-      <Brand style="h-[30px] w-[150px]" />
+      <Brand style="h-[30px] sm:w-[150px] w-[130px]" />
 
       <div className="flex items-center gap-4 md:gap-6 ml-auto">
         {/* User Profile */}

@@ -28,11 +28,11 @@ export const SuccessPage = () => {
         </button>
       </div>
 
-      <div className="w-20 h-20 mx-auto mb-6 rounded-full border-4 border-[#4AC97E] flex items-center justify-center">
-        <Check size={40} className="text-[#4AC97E]" />
+      <div className="sm:w-20 w-15 h-15 sm:h-20 mx-auto mb-6 rounded-full border-4 border-[#4AC97E] flex items-center justify-center">
+        <Check className="sm:text-[40px] text-[30px] text-[#4AC97E]" />
       </div>
       <div className="md:w-[350px] w-full m-auto">
-        <h2 className="text-2xl text-white font-semibold mb-2">
+        <h2 className="sm:text-2xl text-xl text-white font-semibold mb-2">
           Your <span className="text-[#4AC97E]">appointment request</span> has
           been successfully submitted!
         </h2>
