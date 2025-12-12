@@ -57,7 +57,7 @@ export const CustomModal = memo<CustomModalProps>(
             >
               {title}
             </DialogTitle>
-            <DialogDescription className="!text-sm text-[#ABB8C4]">
+            <DialogDescription className="!text-sm text-start text-[#ABB8C4]">
               {description}
             </DialogDescription>
           </DialogHeader>
